@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>基于Arduino的时钟-MZR个人网站</title>
+</head>
+</style>
+<style type=text/css>
+body{
+	background-image: url(../photo/bkgd.jpeg);
+	background-position: 0px 0px;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	background-repeat:no-repeat
+}
+</style>
+<body>
+<h3>基于Arduino的时钟</h3>
+1.原件列表<br>
+Arduino×1<br>
+LCD1602×1<br>
+DS3231×1<br><br>
+2.接线<br>
+Arduino<-->Lcd1602<br>
+GND<-->VSS<br>
+5V<-->VDD<br>
+GND<-->V0(需要串联一个10k电阻)<br>
+13<-->RS<br>
+12<-->R/W<br>
+11<-->E<br>
+4<-->D4<br>
+5<-->D5<br>
+6<-->D6<br>
+7<-->D7<br>
+5V<-->A<br>
+GND<-->K<br><br>
+Arduino<-->DS3231<br>
+SDA(A4)<-->SDA<br>
+SCL(A5)<-->SCL<br>
+GND<-->GND<br>
+5V<-->VCC<br>
+3.源码<br>
+<a href=ArduinoClock.rar><img src="down.jpg" alt="下载源码" width="200" height="50"></a><br>
+</body>
+</html>
